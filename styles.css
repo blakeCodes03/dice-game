@@ -1,0 +1,68 @@
+body{
+    background-color: #0D2B4A;
+}
+#status-header{
+    color: white;
+    font-size: 3.75rem;
+    text-align: center;
+}
+.parent{
+    text-align: center;
+}
+.player-one-text{
+    color: #E7A61A;   
+    font-size: 1.75rem;
+}
+.dice-box-one{
+    background-color: #fff;
+    width: 10em;
+    height: 10em; 
+    margin: 1em 1em; 
+    border-radius: 10%;    
+}
+#diceImageOne{
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+.player-two-text{
+    color: #EA5D46;   
+    font-size: 1.75rem;    
+}
+.dice-box-two{
+    background-color: #fff;
+    width: 10em;
+    height: 10em; 
+    margin: 1em 1em; 
+    border-radius: 10%;  
+}
+#diceImageTwo{
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+.player-container{
+    vertical-align: middle;
+    display: inline-block;  
+}
+.roll-dice-container{
+    text-align: center;
+}
+.roll-dice-button{
+    background-color: #fff;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    width: auto;  
+    z-index: 1;
+    margin: 1em 0 0 1em;
+    color:#160647 ;
+    font-size: 1.75rem;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    border-style: none;    
+}
+.roll-dice-button:hover {
+    background: #47BEBA;
+    text-decoration: none;
+}
+
